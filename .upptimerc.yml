@@ -1,0 +1,45 @@
+owner: exportcomments
+repo: status
+
+sites:
+  - name: ExportComments App
+    url: https://exportcomments.com
+    maxResponseTime: 3000
+    icon: https://raw.githubusercontent.com/exportcomments/status/master/assets/favicon.ico
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/exportcomments/status)"
+
+  - name: ExportComments API
+    url: https://exportcomments.com/api/public/health
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/exportcomments/status)"
+
+  - name: Documentation
+    url: https://docs.exportcomments.com
+    maxResponseTime: 3000
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/exportcomments/status)"
+
+assignees:
+  - exportcomments-bot
+
+status-website:
+  cname: status.exportcomments.com
+  logoUrl: https://raw.githubusercontent.com/exportcomments/status/master/assets/logo.png
+  favicon: https://raw.githubusercontent.com/exportcomments/status/master/assets/favicon.ico
+  name: ExportComments Status
+  introTitle: "**ExportComments** is a platform to export social media comments to Excel."
+  introMessage: This is the real-time and historical data on system performance for [ExportComments](https://exportcomments.com).
+  theme: light
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+    - title: ExportComments
+      href: https://exportcomments.com
