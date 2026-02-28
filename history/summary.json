@@ -1,0 +1,62 @@
+[
+  {
+    "name": "ExportComments App",
+    "url": "https://exportcomments.com",
+    "icon": "https://raw.githubusercontent.com/exportcomments/status/master/assets/favicon.ico",
+    "slug": "export-comments-app",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 59,
+    "timeDay": 59,
+    "timeWeek": 59,
+    "timeMonth": 59,
+    "timeYear": 59,
+    "dailyMinutesDown": {
+      "2026-02-28": 0
+    }
+  },
+  {
+    "name": "ExportComments API",
+    "url": "https://exportcomments.com/api/public/health",
+    "icon": "https://icons.duckduckgo.com/ip3/exportcomments.com.ico",
+    "slug": "export-comments-api",
+    "status": "down",
+    "uptime": "4.23%",
+    "uptimeDay": "4.23%",
+    "uptimeWeek": "4.23%",
+    "uptimeMonth": "4.23%",
+    "uptimeYear": "4.23%",
+    "time": 8,
+    "timeDay": 8,
+    "timeWeek": 8,
+    "timeMonth": 8,
+    "timeYear": 8,
+    "dailyMinutesDown": {
+      "2026-02-28": 0
+    }
+  },
+  {
+    "name": "Documentation",
+    "url": "https://docs.exportcomments.com",
+    "icon": "https://icons.duckduckgo.com/ip3/docs.exportcomments.com.ico",
+    "slug": "documentation",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 67,
+    "timeDay": 67,
+    "timeWeek": 67,
+    "timeMonth": 67,
+    "timeYear": 67,
+    "dailyMinutesDown": {
+      "2026-02-28": 0
+    }
+  }
+]
