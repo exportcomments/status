@@ -16,6 +16,7 @@ sites:
       - 200
       - 301
       - 302
+      - 403
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/exportcomments/status)"
 
