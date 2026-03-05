@@ -8,7 +8,12 @@ sites:
     icon: https://raw.githubusercontent.com/exportcomments/status/master/assets/favicon.ico
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/exportcomments/status)"
-
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+      - 403
+      
   - name: ExportComments API
     url: https://exportcomments.com/api/public/health
     maxResponseTime: 2000
